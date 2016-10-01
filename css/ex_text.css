@@ -1,0 +1,16 @@
+.header{
+    height: 100px;
+    background-color: greenyellow;
+}
+.he{
+    height: 150px;
+    background-color: fuchsia;
+}
+.she{
+    height: 80px;
+    background-color: blue;
+}
+.button{
+    height: 50px;
+    background-color: darkgoldenrod;
+}
