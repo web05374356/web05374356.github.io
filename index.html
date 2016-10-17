@@ -10,6 +10,38 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-light navbar-fixed-top bg-faded">
+        <a class="navbar-brand" href="http://www.4399.com" target="button">4399小遊戏</a>
+        <ul class="nav navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="http://moodle.mcu.edu.tw/" target="button">铭传大学入口网站 <span class="sr-only">(current)</span> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://www.baidu.com" target="button">百度 </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://www.user.qzone.qq.com/495828090" target="button">QQ空间</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://www.douyutv.com" target="button">斗鱼TV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://www.pandatv.com" target="button">熊猫TV</a>
+            </li>
+        </ul>
+        <div class="dropdown open pull-xs-right">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+    Dropdown button
+  </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+    </nav>
+
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -65,11 +97,12 @@
                         </div>
                     </div>
                 </div>
+                <button onclick="pjh();" type="button" class="btn btn-success">Practice
+            </button>
+            <div id="output">
+            </div>
             </div>
             <div class="col-sm-4">
-                <div class="she">
-                    <a class="btn btn-primary" href="http://www.baidu.com" target="button">baidu</a>
-                    <a class="btn btn-success" href="http://www.user.qzone.qq.com/495828090" target="button">QQzone</button></a>
                     <br>具晟彬，游戏ID：IMP，1995年6月7日出生，韩国《英雄联盟》电子竞技职业选手，2014年11月28日由SSW战队转入LGD战队。 具晟彬于2012年开始参加职业比赛，在2013年OGN春季赛中获得冠军，2014赛季英雄联盟全球总决赛上获得冠军
                     。在2015年LPL夏季赛取得冠军。
                     </br>
@@ -77,10 +110,10 @@
                 </div>
             </div>
         </div>
-
     </div>
     <div class="container">
         <div class="blog-footer button">
+
             @PJH
         </div>
     </div>
@@ -90,6 +123,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU"
         crossorigin="anonymous"></script>
+    <script src="./js/ex001.js"></script>
 </body>
 
 </html>
