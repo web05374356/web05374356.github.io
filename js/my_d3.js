@@ -1,8 +1,8 @@
 $(Document).ready(function () {
     $("#A").click(function () {
-        $("svg").animate({ left: '550px' });
+        $("svg").animate({ left: '+=50px' });
     });
     $("#B").click(function () {
-        $("svg").animate({ top: '250px' });
+        $("svg").animate({ top: '+=50px' });
     });
 });
