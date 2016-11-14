@@ -19,7 +19,7 @@ c5.attr('cx',385).attr('cy',242).attr('rx',40).attr('ry',40).attr('fill','chocol
 var c6=d3.select('svg').append('ellipse');
 c6.attr('cx',415).attr('cy',242).attr('rx',40).attr('ry',40).attr('fill','chocolate').attr('stroke','purple').attr('stroke-width',2);
 var c7=d3.select('svg').append('polygon');
-c7.attr('points','400,153 330,290 470,290').attr('fill','lime').attr('stroke','purple').attr('stroke-width',1);
+c7.attr('points',400,153 (330,290 (470,290).attr('fill','lime').attr('stroke','purple').attr('stroke-width',1);
 var c8=d3.select('svg').append('cllipse');
 c8.attr('cx',400).attr('cy',153).attr('rx',82).attr('ry',70).attr('fill','white').attr('stroke','purple').attr('stroke-width',2);
 var c9=d3.select('svg').append('circle');
