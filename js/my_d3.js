@@ -1,7 +1,8 @@
-    $(Document).ready(function(){
-    $("button").click(function(){
-    $("svg").animate({left:'250px'});
-    $("svg").animate({top:'250px'});
-            });
-        });
-      
+$(Document).ready(function () {
+    $("#A").click(function () {
+        $("svg").animate({ left: '550px' });
+    });
+    $("#B").click(function () {
+        $("svg").animate({ top: '250px' });
+    });
+});
