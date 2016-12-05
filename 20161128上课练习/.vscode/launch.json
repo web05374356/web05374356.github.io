@@ -7,7 +7,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "啟動程式",
+            "name": "啟動",
             "program": "${workspaceRoot}/app.js",
             "cwd": "${workspaceRoot}"
         },
